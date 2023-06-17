@@ -1,11 +1,11 @@
-About r-turner
-==============
+About r-turner-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-turner-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.gastonsanchez.com
 
 Package license: GPL-3
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-turner-feedstock/blob/main/LICENSE.txt)
 
 Summary: Package designed for working with vectors and lists of vectors, mainly for turning them into other indexed data structures.
 
