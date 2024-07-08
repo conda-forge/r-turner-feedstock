@@ -1,4 +1,4 @@
-{% set version = '0.1.7' %}
+{% set version = "0.1.9" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,11 +9,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/turner_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/turner/turner_{{ version }}.tar.gz
-  sha256: e21cc8b9da1f951f067a8a907550786745a675fe14c8a536fcd52d08ca5993f5
+  sha256: 182681bc0c16ab6a37c319c1165a4c4b4e70c476238ecb2f24e8cf3351008e61
 
 build:
   noarch: generic
-  number: 1005
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -36,8 +36,7 @@ test:
 about:
   home: http://www.gastonsanchez.com
   license: GPL-3
-  summary: Package designed for working with vectors and lists of vectors, mainly for turning
-    them into other indexed data structures.
+  summary: Package designed for working with vectors and lists of vectors, mainly for turning them into other indexed data structures.
   license_family: GPL3
   license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
