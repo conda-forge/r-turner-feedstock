@@ -1,4 +1,4 @@
-{% set version = "0.1.9" %}
+{% set version = "0.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,11 +9,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/turner_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/turner/turner_{{ version }}.tar.gz
-  sha256: 182681bc0c16ab6a37c319c1165a4c4b4e70c476238ecb2f24e8cf3351008e61
+  sha256: 03337c84b06fa25eff60719877562532c471da25325a35482d086dc4a648d418
 
 build:
   noarch: generic
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
